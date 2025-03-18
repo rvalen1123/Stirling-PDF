@@ -2,7 +2,7 @@
   "services": {
     "stirling-pdf": {
       "name": "Stirling-PDF",
-      "image": "stirlingtools/stirling-pdf",
+      "image": "rvalen1123/stirling-pdf",
       "envVars": {
         "DOCKER_ENABLE_SECURITY": "true",
         "LANGS": "en_US,es-mx,fa",
