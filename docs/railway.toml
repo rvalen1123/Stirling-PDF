@@ -1,9 +1,9 @@
 {
-  "services": {
-    "stirling-pdf": {
+  "services": 
+    "stirling-pdf": 
       "name": "Stirling-PDF",
       "image": "rvalen1123/stirling-pdf",
-      "envVars": {
+      "envVars": 
         "DOCKER_ENABLE_SECURITY": "true",
         "LANGS": "en_US,es-mx,fa",
         "OCR_ENABLED": "true",
@@ -12,7 +12,7 @@
         "SIGNING_ENABLED": "true",
         "DATABASE_URL": "${{ DATABASE_URL }}"
       },
-      "volumes": {
+      "volumes": 
         "./StirlingPDF/trainingData": "/usr/share/tesseract-ocr/4.00/tessdata",
         "./StirlingPDF/extraConfigs": "/configs",
         "./StirlingPDF/customFiles": "/customFiles",
@@ -22,8 +22,8 @@
         "./StirlingPDF/input": "/app/input",
         "./StirlingPDF/output": "/app/output"
       },
-      "ports": {
-        "8080": {
+      "ports": 
+        "8080": 
           "protocol": "http"
         }
       }
