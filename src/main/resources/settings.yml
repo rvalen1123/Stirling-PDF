@@ -62,7 +62,7 @@ security:
     spCert: classpath:saml-public-cert.crt # Your signing certificate. Generated from your keypair
 
 enterpriseEdition:
-  enabled: false # set to 'true' to enable enterprise edition
+  enabled: true # set to 'true' to enable enterprise edition
   key: B6B758-7E6E7E-21C485-3E4E21-668973-V3
   SSOAutoLogin: false # Enable to auto login to first provided SSO
   CustomMetadata:
